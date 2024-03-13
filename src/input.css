@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+.badge{
+    @apply bg-secondary-100 rounded-full text-secondary-200 text-xs font-bold p-2 absolute top-0 left-0 ml-2 mt-2;
+}
+.btn{
+    @apply rounded-full px-3 py-2 text-xs font-bold cursor-pointer tracking-wider uppercase
+}
+.menu-buttons{
+    @apply flex gap-2 cursor-pointer mt-2
+}
